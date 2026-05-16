@@ -4,11 +4,6 @@ import java.util.ArrayList;
 /**
  * Servicio que contiene la lógica de negocio.
  * Gestiona la lista de productos en memoria.
- *
- * En Spring Boot:
- *   - Esta clase lleva @Service
- *   - El ArrayList se reemplaza por un JpaRepository
- *   - La lógica interna queda casi igual
  */
 public class ProductoService {
 

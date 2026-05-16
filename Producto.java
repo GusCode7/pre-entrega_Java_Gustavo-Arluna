@@ -1,11 +1,8 @@
 
 /**
  * Modelo que representa un producto de la tienda.
- * El id se asigna automáticamente — no lo ingresa el usuario.
- *
- * En Spring Boot con JPA este id lo va a manejar la base de datos.
- * Por eso más adelante vamos a agregar un constructor vacío y @Entity.
- */
+ **/ 
+
 public class Producto {
 
     // Contador compartido por todos los objetos — genera ids únicos

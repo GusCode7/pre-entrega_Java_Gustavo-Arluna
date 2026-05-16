@@ -1,16 +1,7 @@
 
 import java.util.Scanner;
 
-/**
- * Punto de entrada del programa.
- * Responsabilidades: leer datos, validar con if, delegar al servicio.
- *
- * Las validaciones son simples (if) — sin clases utilitarias,
- * para mantener el código accesible.
- *
- * En Spring Boot: Main se descarta.
- * El controlador REST + Postman lo reemplazan.
- */
+
 public class Main {
 
     public static void main(String[] args) {
@@ -23,7 +14,7 @@ public class Main {
 
         while (opcion != 0) {
 
-            System.out.println("\n¿Qué querés hacer?");
+            System.out.println("\nElija una opción:");
             System.out.println("1. Agregar producto");
             System.out.println("2. Listar productos");
             System.out.println("3. Buscar por ID");
